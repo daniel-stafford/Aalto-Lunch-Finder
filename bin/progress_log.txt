@@ -1,0 +1,47 @@
+Note: I can't find where I uploaded my second project log, so I'm recreating it here along with the third.
+
+Project Log for Tuesday, 12-3-19
+
+I've added Sodexo and Fazer classes that parse XML data from the web.  Because Sodexo 
+and Fazer have their XML data different format, I had to create separate classes with specific parsing methods.
+I've also created a lunchvVew classes which - in theory - will allow me to separate some of my code from the 
+TextUI application.  I also discovered that using Restaurant as a common trait between Sodexo and Fazer may allow me to share 
+common code between Sodxeo and Fazer.
+
+Methods/functions that work include adding new restaurants, parsing restaurants data and then 
+printing restaurants by day and by week, user can print out their favorite restaurant.
+
+I really struggled with parsing JSON data - hours were lost in frustration - and eventually switched
+over to XML as it was slightly easier (but still difficult) to work with in Scala.  I am now struggling with
+getting filtering to work, as I have fairly messy code that needs a lot of refactoring.
+
+Workload has been about 10 hours per week.  
+
+I feel like I'm schedule. For the next two weeks, I hope to get filtering and favorites to work. 
+This may require quite a bit of code refactoring. I may just stay with the text based UI considering 
+how much work I still have left.
+
+Project Log, 25-3-19
+
+Project has improved substantially.  Restaurant trait has been added along with implementation of all major methods such as 
+filtering food, filtering allergies, finding favorites, and printing out final menus.
+
+I had a lot of trouble getting filtering to work with multiple key terms, as well as building methods that took in user input and fed
+them to the corresponding methods (for instance, taking in the user's allergies and filtering them).
+
+15+ hours a week for this round.
+
+I feel actually a bit ahead of schedule given my zero desire to do a GUI form.  As of present, my project is functional.
+
+Project Log, 8-4-19
+
+I've played around with a GUI (both Swing and ScalaFX) and failed entirely.  I could barely get a pop up window to show up.
+Tried to refactor some sloppy code (such as the filtering logic) but ran into some deadends.  
+
+Difficulties were with the GUI and were resolved by deciding it wasn't worth the frustration.
+
+5 hours per week.  My patience for GUIs is thin.
+
+I feel still on schedule.  Will spend the remaining week just cleaning up code and preparing the final report!
+
+
